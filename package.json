@@ -1,0 +1,40 @@
+{
+  "name": "repoter-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "// If You want to install mdbreact from our GitLab repository, please replace '4.24.0' with gitURL provided here ->": "git+https://oauth2:<YOUR-TOKEN-GOES-HERE>@git.mdbootstrap.com/mdb/react/re-pro.git",
+  "dependencies": {
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.15",
+    "mdbreact": "4.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-grid-layout": "^0.17.1",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.0.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^3.3.0",
+    "redux": "^4.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "rename": "renamer --find App-clear.js --replace App.js ./src/App-clear.js && renamer --find style.css --replace index.css ./src/style.css "
+  },
+  "devDependencies": {
+    "renamer": "^1.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "Report UI prototype",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
